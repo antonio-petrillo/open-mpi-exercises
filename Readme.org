@@ -1,0 +1,13 @@
+#+title: Parallel and Distributed Computing (PDC)
+
+* Description
+Repo for the source code of the course *Parallel and Distributed Computing*, aka *PDC*.
+You will find, the following projects:
++ Sum of n numbers implemented in [[https://www.open-mpi.org/][opempi]], with 3 strategies:
+  + Single receiver, known as *Strategy 1*
+  + Tree receiver, known as *Strategy 2*
+  + Tree receiver broadcast, known as *Strategy 3*
++ Matrix-Vector product implemente in [[https://www.openmp.org/][openmp]]
++ Matrix-Matrix product with *Broadcast Rolling Multiply* algorithm also in [[https://www.open-mpi.org/][opempi]]
+
+There are also some exercise.
